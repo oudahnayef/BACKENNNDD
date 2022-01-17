@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/yourDBName").then(
+mongoose.connect("mongodb://localhost:27017/MyDataB").then(
   () => {
     console.log("DB connected");
   },
@@ -8,3 +8,4 @@ mongoose.connect("mongodb://localhost:27017/yourDBName").then(
     console.log(err);
   }
 );
+

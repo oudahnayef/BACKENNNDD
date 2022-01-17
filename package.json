@@ -1,18 +1,23 @@
 {
-  "name": "backend",
+  "name": "BACKENNNDD",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oudahnayef/BACKENNNDD.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.14"
-  }
+  "bugs": {
+    "url": "https://github.com/oudahnayef/BACKENNNDD/issues"
+  },
+  "homepage": "https://github.com/oudahnayef/BACKENNNDD#readme"
 }

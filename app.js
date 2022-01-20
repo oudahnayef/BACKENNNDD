@@ -23,8 +23,8 @@ app.use(articlesRoute);
 
 
 //////////////////
-const Port = 5000;
-console.log(process.env.port)
-app.listen(process.env.port,()=>{
+
+
+app.listen(process.env.PORT,()=>{
     console.log("server is running in port 5000");
 })
